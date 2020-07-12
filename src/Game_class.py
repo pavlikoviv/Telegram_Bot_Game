@@ -1,3 +1,14 @@
+import sys
+
+
+def main():
+    while True:
+        get_input()
+        return
+
+if __name__ == '__main__':
+    sys.exit(main())
+
 import time
 import random
 def say(noun):
@@ -285,6 +296,3 @@ verb_dict = {
     "info": info,
     "fight": fight,
 }
-
-while True:
-    get_input()
